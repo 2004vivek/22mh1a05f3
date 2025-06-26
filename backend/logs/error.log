@@ -1,0 +1,30 @@
+{"timestamp":"2025-06-26T06:32:16.208Z","method":"POST","url":"/api/shorturls","status":400,"responseTime":"89ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://well-off-fifth.name,https://unfinished-houseboat.info/,https://fine-fund.biz/","validity":30,"shortcode":"abcd"}}
+{"response":"{\"error\":\"Invalid URL format\"}"}
+{"timestamp":"2025-06-26T06:33:12.466Z","method":"POST","url":"/api/shorturls","status":400,"responseTime":"6ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://proassess.hiremee.co.in/testevent/zoQ0Ow9p54","validity":30,"shortcode":"abcd"}}
+{"response":"{\"error\":\"Invalid URL format\"}"}
+{"timestamp":"2025-06-26T06:34:53.858Z","method":"POST","url":"/api/shorturls","status":400,"responseTime":"7ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://very-long-url.com/page","validity":30,"shortcode":"abcd"}}
+{"response":"{\"error\":\"Invalid URL format\"}"}
+{"timestamp":"2025-06-26T06:35:12.822Z","method":"POST","url":"/api/shorturls","status":400,"responseTime":"1ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://very-long-url.com/page","validity":30,"shortcode":"abcd1"}}
+{"response":"{\"error\":\"Invalid URL format\"}"}
+{"timestamp":"2025-06-26T06:36:48.452Z","method":"POST","url":"/api/shorturls","status":400,"responseTime":"1ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"}}
+{"response":"{\"error\":\"Invalid URL format\"}"}
+{"timestamp":"2025-06-26T06:39:18.455Z","method":"POST","url":"/api/shorturls","status":400,"responseTime":"32ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"}}
+{"response":"{\"error\":\"Invalid URL format - URL must be a valid web address\"}"}
+{"timestamp":"2025-06-26T06:43:04.316Z","method":"GET","url":"/api/shorturls/:abcd1","status":404,"responseTime":"5ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","params":{"shortcode":":abcd1"}}
+{"response":"{\"error\":\"Short URL not found\"}"}
+{"timestamp":"2025-06-26T06:44:48.424Z","method":"POST","url":"/api/shorturls","status":409,"responseTime":"28ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"}}
+{"response":"{\"error\":\"Shortcode already in use\"}"}
+{"timestamp":"2025-06-26T06:52:37.441Z","method":"GET","url":"/favicon.ico","status":404,"responseTime":"2ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","ip":"::1"}
+{"response":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /favicon.ico</pre>\n</body>\n</html>\n"}
+{"timestamp":"2025-06-26T06:57:44.165Z","method":"POST","url":"/api/shorturls/abcd1","status":404,"responseTime":"1ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://very-very-very-long-and-descriptive-subdomain-that-goes-on-and-on.somedomain.com/additional/directory/levels/for/more/length/really-log-sub-domain/a-really-log-page","validity":30,"shortcode":"abcd1"}}
+{"response":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/shorturls/abcd1</pre>\n</body>\n</html>\n"}
+{"timestamp":"2025-06-26T06:58:55.697Z","method":"POST","url":"/api/shorturls/abcd1","status":404,"responseTime":"0ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://www.google.com/","validity":30,"shortcode":"abcd1"}}
+{"response":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/shorturls/abcd1</pre>\n</body>\n</html>\n"}
+{"timestamp":"2025-06-26T06:59:05.487Z","method":"POST","url":"/api/shorturls","status":409,"responseTime":"59ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://www.google.com/","validity":30,"shortcode":"abcd1"}}
+{"response":"{\"error\":\"Shortcode already in use\"}"}
+{"timestamp":"2025-06-26T07:00:04.472Z","method":"GET","url":"/abcd1","status":404,"responseTime":"1ms","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36","ip":"::1"}
+{"response":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /abcd1</pre>\n</body>\n</html>\n"}
+{"timestamp":"2025-06-26T07:12:55.780Z","method":"GET","url":"/api/shorturls","status":404,"responseTime":"7ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1"}
+{"response":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /api/shorturls</pre>\n</body>\n</html>\n"}
+{"timestamp":"2025-06-26T07:14:00.626Z","method":"POST","url":"/api/shorturls/go","status":404,"responseTime":"0ms","userAgent":"PostmanRuntime/7.44.1","ip":"::1","body":{"url":"https://www.google.com/","validity":30,"shortcode":"go"}}
+{"response":"<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot POST /api/shorturls/go</pre>\n</body>\n</html>\n"}
